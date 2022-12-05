@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../styles/contato-style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="../icon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../icon/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script src="../scripts/contato-script.js"></script>
+    <title>Contato</title>
+</head>
+<body onload="lightmode()">
+    <div class="container">
+        <button title="Modo Escuro" class="darkbtn" type="button" onclick="darkmode()">
+        <button title="Modo Claro" class="lightbtn" type="button" onclick="lightmode()">
+    </div>
+    <h1>Contato</h1>
+    <div class="conteudo">
+        <div class="titulos">
+            <h2>Redes</h2><br>
+            <hr size="4" width="100%" color="black"><br>
+            <ul>
+                <li><img src="../icon/linkedin.svg" alt="Linkedin Icon" width="32px" height="35px">
+                    <a href="https://www.linkedin.com/in/bernardo-baroni-bon%C3%AAs-35a93522a/" target="_blank">Linkedin</a>
+                </li><br>
+                <li><img src="../icon/instagram.svg" alt="Linkedin Icon" width="32px" height="35px">
+                    <a href="https://www.instagram.com/bonesbernardo/" target="_blank">Instagram</a>
+                </li><br>
+                <li><img src="../icon/github.svg" alt="Linkedin Icon" width="32px" height="35px">
+                    <a href="https://github.com/BernardoBones" target="_blank">Github</a>
+                </li><br>
+            </ul>
+        </div>
+        <div class="titulos">
+            <h2>Entre em contato por e-mail</h2>
+            <hr size="4" width="100%" color="black"><br>
+            <form class="form" method="post" action="../scripts/email.php">
+                <input class="field" title="Digite seu nome" name="name" placeholder="Nome"><br><br>
+                <input class="field" title="Digite seu e-mail para contato" name="email" placeholder="E-mail"><br><br>
+                <textarea class="field" title="Digite sua mensagem" name="message" placeholder="Digite sua mensagem aqui." rows="10" cols="40"></textarea><br><br>
+                <input class="field" type="submit" value="Enviar"><br>
+            </form>
+        </div>
+        <footer class="rodape">
+            Construído por Bernardo Baroni Bonês. Última atualização - 03/12/2022
+        </footer>
+    </div>
+</body>
+</html>

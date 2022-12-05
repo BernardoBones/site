@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+*{
+    font-family: Poppins;
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    border:0;   
+    text-decoration: none;
+}
+
+body{
+    height: 100%;
+    margin: 4vw;
+    padding: 2.5vh;
+    background-color: '#D9DDDC'; 
+    color: #222021;
+}
+
+body::-webkit-scrollbar{
+    width: 1vw;  
+}
+
+body::-webkit-scrollbar-track {
+    background: #D9DDDC; 
+    border-radius: 5px; 
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #222021;    
+    border-radius: 5px;       
+    border: 5px solid #222021; 
+}
+
+
+.darkbtn{
+    background-color: #363636;
+    border-radius: 50%;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    user-select: none;
+    transition: background-color 0.5s linear;
+}
+
+.lightbtn{
+    background-color: #D9DDDC;
+    border-radius: 50%;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    user-select: none;
+    transition: background-color 0.5s linear;
+}
+
+h1{
+    font-size: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+h1:hover{
+    font-size: 11vh;
+}
+
+h2{
+    font-size: 2.5vw;
+}
+
+h2:hover{
+    font-size: 3vw;
+}
+
+a{
+    color:#877f7d;
+}
+
+a:hover{
+    font-size: 125%;
+}
+
+p{
+    display: flex;
+    justify-content: justify;
+}
+.conteudo{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.titulos{    
+    padding-bottom: 20vh;   
+}
+
+.titulos:hover{
+    width: 105%;
+}
+
+.rodape{
+    padding: 0px;
+    text-align: center;
+    flex-shrink: 0;
+}
+
+.field{
+    padding: 5px;
+    border: 1px solid #877f7d;
+    background-color:#D9DDDC;
+    border-radius: 5px;
+}

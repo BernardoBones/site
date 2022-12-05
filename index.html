@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./styles/style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="./icon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./icon/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script src="./scripts/script.js"></script>
+    <title>Bernardo Bonês</title>
+</head>
+<body onload="lightmode()">
+    <div class="container">
+        <button title="Modo Escuro" class="darkbtn" type="button" onclick="darkmode()">
+        <button title="Modo Claro" class="lightbtn" type="button" onclick="lightmode()">
+    </div>
+    <h1>Bernardo Baroni Bonês</h1><br>
+    <div class="conteudo">
+        <div class="titulos">
+            <h2>Sobre</h2><br>
+            <hr size="4" width="100%" color="#999DA0"><br>
+            <p>Estudante de Ciência da Computação pela Universidade de Passo Fundo - 1 nível.
+                Tenho experiência com Javascript - puro e ReactJS, Typescript, PHP e Python.
+                Possuo interesse na área de desenvolvimento como um todo, análise de qualidade,
+                análise de dados e cibersegurança.
+                No mundo tecnológico, há mais de 10 anos, sendo o primeiro contato com jogos eletrônicos.
+                Já ministrei aulas de introdução à programação, usando do Scratch e programação voltada à Arduino.
+                </p><a href="./pages/sobre.html" target="_blank">Clique aqui para mais</a><br>
+        </div>
+        <div class="titulos">
+            <h2>Projetos</h2><br>
+            <hr size="4" width="100%" color="#999DA0"><br>
+            <p>Projetos no Github, trabalhando HTML5 e CSS3 básicos - formulários, menus de navegação, descrição de produtos e CSS Flexbox.
+                Usando também de Javascript, construíndo projetos básicos como lista de afazers. 
+                ReactJS, criando uma plataforma de apresentação de usuário do Github, fazendo uso da própria API do Github.
+            </p>
+            <a href="./pages/projetos.html" target="_blank">Clique aqui para mais</a><br>
+        </div>
+        <div class="titulos">
+            <h2>Contato</h2><br>
+            <hr size="4" width="100%" color="#999DA0"><br>
+            <ul>
+                <li><img src="../icon/linkedin.svg" alt="Linkedin Icon" width="32px" height="35px">
+                    <a href="https://www.linkedin.com/in/bernardo-baroni-bon%C3%AAs-35a93522a/" target="_blank">Linkedin</a>
+                </li><br>
+                <li><img src="../icon/instagram.svg" alt="Linkedin Icon" width="32px" height="35px">
+                    <a href="https://www.instagram.com/bonesbernardo/" target="_blank">Instagram</a>
+                </li><br>
+                <li><img src="../icon/github.svg" alt="Linkedin Icon" width="32px" height="35px">
+                    <a href="https://github.com/BernardoBones" target="_blank">Github</a>
+                </li><br>
+            </ul>
+        </div>        
+        <div class="titulos">
+            <h2>Entre em contato por e-mail</h2>
+            <hr size="4" width="100%" color="#999DA0"><br>
+            <form class="form" method="post" action="../scripts/email.php">
+                <input class="field" title="Digite seu nome" name="name" placeholder="Nome"><br><br>
+                <input class="field" title="Digite seu e-mail para contato" name="email" placeholder="E-mail"><br><br>
+                <textarea class="field" title="Digite sua mensagem" name="message" placeholder="Digite sua mensagem aqui." rows="10" cols="40"></textarea><br><br>
+                <input class="field" type="submit" value="Enviar"><br>
+            </form>
+        </div>
+        <div class="titulos">
+            <h2>Código Fonte</h2><br>
+            <hr size="4" width="100%" color="#999DA0"><br>
+            <a href="">Link para o código fonte</a>
+        </div>
+        <footer class="rodape">
+            Construído por Bernardo Baroni Bonês. Última atualização - 03/12/2022
+        </footer>
+    </div>
+    <br>
+</body>
+</html>
